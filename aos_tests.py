@@ -16,4 +16,5 @@ class AOSAppPositiveTestCases (unittest.TestCase):
         methods.logout()
         methods.login()
         methods.delete()
+        methods.logger('deleted')
         methods.tearDown()
